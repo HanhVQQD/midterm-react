@@ -1,0 +1,86 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: #faf0e6;
+}
+
+.formm {
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background-color: #838b8b;
+  padding: 10px;
+}
+
+.form-group,
+label,
+.AddItem,
+.form-group1,
+.form-group2 {
+  background-color: #838b8b;
+  color: black;
+}
+
+.form-group1 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.form-group2 {
+  padding-right: 5px;
+  float: left;
+  width: 65%;
+  margin-top: 6px;
+}
+
+label {
+  font-size: 23px;
+}
+
+.AddItem {
+  font-size: 40px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #cd0000;
+  border: none;
+  width: 200px;
+  color: #ffff;
+  margin: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn:hover {
+  background-color: #ffff;
+  color: #cd0000;
+}
+
+/* -----------------TABLE----------------- */
+.table,
+td,
+th {
+  border: 2px solid black;
+  padding: 10px;
+}
+.table {
+  border-collapse: collapse;
+}
+.table tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+label {
+  margin-right: 20px;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
